@@ -31,10 +31,15 @@
         }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "processor": "atmega32u4",
     "bootloader": "caterina",
 >>>>>>> ac93af5e33 (Encoder fixes and fun usb labels)
+=======
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+>>>>>>> 29d13ee254 (added brightness control to knobs)
     "layouts": {
         "LAYOUT": {
             "layout": [

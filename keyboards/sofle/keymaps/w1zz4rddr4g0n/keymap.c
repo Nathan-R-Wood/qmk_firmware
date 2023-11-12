@@ -577,9 +577,9 @@ switch (get_highest_layer(layer_state)) {
 			case _RAISE:
                if (index == 0) {
 				if (clockwise) {
-				    tap_code(KC_DOWN);
+				    tap_code(KC_BRIGHTNESS_DOWN);
 				} else {
-					tap_code(KC_UP);
+					tap_code(KC_BRIGHTNESS_UP);
 				}
                 }
 			case _LOWER:
