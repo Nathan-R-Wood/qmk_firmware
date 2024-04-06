@@ -602,7 +602,7 @@ static void print_status_narrow(void) {
         case _COLEMAK:
         case _QWERTY:
         case _COLEMAKDH:
-            oled_write_P(PSTR("Base"), false);
+            oled_write_P(PSTR("Base\n"), false);
             break;
         case _RAISE:
             oled_write_P(PSTR("Raise"), false);
@@ -611,13 +611,13 @@ static void print_status_narrow(void) {
             oled_write_P(PSTR("Lower"), false);
             break;
         case _ADJUST:
-            oled_write_P(PSTR("Adj"), false);
+            oled_write_P(PSTR("Adj\n"), false);
             break;
         case _NUMPAD:
-            oled_write_P(PSTR("Nump"), false);
+            oled_write_P(PSTR("Nump\n"), false);
             break;
         case _SWITCH:
-            oled_write_P(PSTR("Swit"), false);
+            oled_write_P(PSTR("Swit\n"), false);
             break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);
