@@ -1,10 +1,6 @@
 {
-<<<<<<< HEAD
-    "manufacturer": "JosefAdamcik",
-=======
     "keyboard_name": "Sofle RGB",
     "manufacturer": "Wizard Dragon",
->>>>>>> ac93af5e33 (Encoder fixes and fun usb labels)
     "url": "https://github.com/josefadamcik/SofleKeyboard",
     "maintainer": "Josef Adamcik <josef.adamcik@gmail.com>",
     "development_board": "promicro",
@@ -30,16 +26,8 @@
             }
         }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
->>>>>>> ac93af5e33 (Encoder fixes and fun usb labels)
-=======
     "processor": "RP2040",
     "bootloader": "rp2040",
->>>>>>> 29d13ee254 (added brightness control to knobs)
     "layouts": {
         "LAYOUT": {
             "layout": [
